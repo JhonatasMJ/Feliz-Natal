@@ -8,7 +8,7 @@
     align-items: center;
     max-width: 1200px;
     grid-template-columns: 1fr 1fr;
-    padding: 110px 0px;
+    padding: 110px 20px;
     margin: 0 auto;
     gap: 120px;
     
@@ -56,7 +56,7 @@
 }
 
 
-@media (max-width:429px) {
+@media (max-width: 600px) {
     .conteudo {
         grid-template-columns: 1fr;
         text-align: center;
