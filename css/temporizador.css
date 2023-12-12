@@ -1,0 +1,71 @@
+.temporizador {
+  background-color: #f9f9f9;  
+}
+
+.temporizador-container {
+    display: grid;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    max-width: 1200px;
+    grid-template-columns: 1fr ;
+    padding: 80px 0px;
+    margin: 0 auto;
+    gap: 40px;
+}
+
+.temporizador-container h2 {
+    font-size: 2.5rem;
+}
+
+.temporizador-container p {
+    font-size: 1.25rem;
+    word-wrap: break-word;
+}
+
+.temporizador-container span, .mensagem-natal {
+    font-size: 4rem;
+    color: #CD3C32;
+    font-weight: 600;
+}
+
+.imagem {
+    display: flex;
+    justify-content: center;
+}
+
+.contagem {
+    display: flex;
+    justify-content: center;
+}
+
+@media (max-width: 400px) {
+
+
+    .conteudo-texto img {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 50%;
+    }
+
+    .temporizador-container {
+        padding: 80px 24px;
+    }
+
+    .temporizador-container h2 {
+        font-size: 2rem;
+    }
+
+    .temporizador-container p {
+        font-size: 1.125rem;
+    }
+
+    .temporizador-container span {
+        font-size: 2rem;
+    }
+
+    .botao {
+        font-size: 1rem;
+    }
+}
