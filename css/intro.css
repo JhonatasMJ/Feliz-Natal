@@ -55,6 +55,45 @@
     background-color: rgb(240, 82, 70)
 }
 
+
+@media (max-width:429px) {
+    .conteudo {
+        grid-template-columns: 1fr;
+        text-align: center;
+        padding: 110px 24px;
+    }
+
+    .conteudo-texto img {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 50%;
+    }
+
+    .conteudo h1 {
+        font-size: 2rem;
+    }
+
+    .conteudo p {
+        font-size: 1.125rem;
+    }
+
+    .botao {
+        font-size: 1rem;
+    }
+    .logotipo {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        margin: 0 auto;
+    }
+}
+
+
+
+
+
 @media (max-width: 400px) {
 
     .conteudo {
@@ -89,3 +128,4 @@
         margin: 0 auto;
     }
 }
+

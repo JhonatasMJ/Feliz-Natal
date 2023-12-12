@@ -29,6 +29,36 @@
     line-height: 34px;
 }
 
+@media (max-width: 429px) {
+
+    .generosidade-container {
+        grid-template-columns: 1fr;
+        text-align: center;
+        padding:80px 24px
+    }
+
+    .conteudo-texto img {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 50%;
+    }
+
+    .generosidade h2 {
+        font-size: 2rem;
+    }
+
+    .generosidade p {
+        font-size: 1.125rem;
+    }
+
+    .botao {
+        font-size: 1rem;
+    }
+}
+
+
+
 @media (max-width: 400px) {
 
     .generosidade-container {
@@ -56,3 +86,5 @@
         font-size: 1rem;
     }
 }
+
+

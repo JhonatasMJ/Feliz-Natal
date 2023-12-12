@@ -39,6 +39,40 @@
     justify-content: center;
 }
 
+
+
+@media (max-width: 429px) {
+
+
+    .conteudo-texto img {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 50%;
+    }
+
+    .temporizador-container {
+        padding: 80px 24px;
+    }
+
+    .temporizador-container h2 {
+        font-size: 2rem;
+    }
+
+    .temporizador-container p {
+        font-size: 1.125rem;
+    }
+
+    .temporizador-container span {
+        font-size: 2rem;
+    }
+
+    .botao {
+        font-size: 1rem;
+    }
+}
+
+
 @media (max-width: 400px) {
 
 
