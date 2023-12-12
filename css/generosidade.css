@@ -29,7 +29,7 @@
     line-height: 34px;
 }
 
-@media (max-width: 429px) {
+@media (max-width:  600px) {
 
     .generosidade-container {
         grid-template-columns: 1fr;
